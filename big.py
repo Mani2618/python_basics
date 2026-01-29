@@ -1,0 +1,9 @@
+a=10
+b=40
+c=30
+if((a>b)&(a>c)):
+    print(a)
+elif((b>c)&(b>a)):
+    print(b)
+else:
+    print(c)
